@@ -1,0 +1,41 @@
+.title-1
+    font-size: 4.5rem
+    font-weight: 700
+    color: white
+    animation-name: leftToRight
+    animation-duration: 2s
+    animation-timing-function: ease 
+    /* animation-delay: 1s */
+.title-2
+    font-size: 4rem
+    font-weight: 700
+    color: $color-gray-light
+    line-height: 100%
+.title-3
+    font-size: 1.9rem
+    font-weight: 700
+    color: $color-green-dark
+    transition: all .3s 
+    &:hover 
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4)
+        transform: scale(1.07)
+    &_white
+        color: white
+        &:hover
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4)
+            transform: scale(1.07)
+            color: $color-green-light
+    &_green-light
+        color: $color-green-light
+.title-4
+    font-size: 2rem
+    font-weight: 300
+    color: $color-green-light
+    padding-bottom: 2rem
+    &:hover
+            text-shadow: 0px 4px 4px rgba(131, 194, 159, 0.6)
+    &__first
+        animation-name: rightToLeft
+        animation-duration: 2s
+        animation-timing-function: ease 
+
